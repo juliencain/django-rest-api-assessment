@@ -1,0 +1,29 @@
+[
+    {
+        "model": "tunaapi.artist",
+        "pk": 1,
+        "fields": {
+            "name": "Kendrick Lamar",
+            "age": 37,
+            "bio": "A Grammy-winning rapper and songwriter, known for introspective lyrics and storytelling."
+        }
+    },
+    {
+        "model": "tunaapi.artist",
+        "pk": 2,
+        "fields": {
+            "name": "Sting",
+            "age": 73,
+            "bio": "a legendary musician, songwriter, and activist with global acclaim."
+        }
+    },
+    {
+        "model": "tunaapi.artist",
+        "pk": 3,
+        "fields": {
+            "name": "Imogen Heap",
+            "age": 46,
+            "bio": "A singer, songwriter, producer, and pioneer in music technology innovation."
+        }
+    }
+]

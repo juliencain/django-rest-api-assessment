@@ -1,0 +1,82 @@
+[
+    {
+        "model": "tunaapi.songgenre",
+        "pk": 1,
+        "fields": {
+            "song_id": 1,
+            "genre_id": 1
+        }
+    },
+    {
+        "model": "tunaapi.songgenre",
+        "pk": 2,
+        "fields": {
+            "song_id": 2,
+            "genre_id": 4
+        }
+    },
+    {
+        "model": "tunaapi.songgenre",
+        "pk": 3,
+        "fields": {
+            "song_id": 3,
+            "genre_id": 3
+        }
+    },
+    {
+        "model": "tunaapi.songgenre",
+        "pk": 4,
+        "fields": {
+            "song_id": 4,
+            "genre_id": 2
+        }
+    },
+    {
+        "model": "tunaapi.songgenre",
+        "pk": 5,
+        "fields": {
+            "song_id": 5,
+            "genre_id": 1
+        }
+    },
+    {
+        "model": "tunaapi.songgenre",
+        "pk": 6,
+        "fields": {
+            "song_id": 6,
+            "genre_id": 3
+        }
+    },
+    {
+        "model": "tunaapi.songgenre",
+        "pk": 7,
+        "fields": {
+            "song_id": 7,
+            "genre_id": 3
+        }
+    },
+    {
+        "model": "tunaapi.songgenre",
+        "pk": 8,
+        "fields": {
+            "song_id": 8,
+            "genre_id": 4
+        }
+    },
+    {
+        "model": "tunaapi.songgenre",
+        "pk": 9,
+        "fields": {
+            "song_id": 9,
+            "genre_id": 3
+        }
+    },
+    {
+        "model": "tunaapi.songgenre",
+        "pk": 10,
+        "fields": {
+            "song_id": 10,
+            "genre_id": 1
+        }
+    }
+]
