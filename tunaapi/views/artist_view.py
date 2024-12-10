@@ -16,6 +16,10 @@ class SingleArtistSerializer(serializers.ModelSerializer):
         depth = 1
         db_table = 'songs'
         
+
+
+
+
 class ArtistSerializer(serializers.ModelSerializer):
     class Meta:
         model = Artist
@@ -36,11 +40,15 @@ class ArtistView(ViewSet):
         except Artist.DoesNotExist as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
 
+   
+   
+   
     def list(self, request):
         
         artists = Artist.objects.all()
         serializer = ArtistSerializer(artists, many=True)
         return Response(serializer.data)
+    
     
     def create(self, request):
 
@@ -64,6 +72,8 @@ class ArtistView(ViewSet):
 
         serializer = ArtistSerializer(artist)
         return Response(serializer.data, status=status.HTTP_200_OK)
+    
+    
     
     def destroy(self, request, pk):
         artist = Artist.objects.get(pk=pk)
