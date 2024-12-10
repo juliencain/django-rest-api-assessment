@@ -1,0 +1,102 @@
+[
+    {
+        "model": "tunaapi.song",
+        "pk": 1,
+        "fields": {
+            "title": "Alright",
+            "artist": 1,
+            "album": "To Pimp a Butterfly",
+            "length": 373
+        }
+    },
+    {
+        "model": "tunaapi.song",
+        "pk": 2,
+        "fields": {
+            "title": "First Train Home",
+            "artist": 3,
+            "album": "Ellipse",
+            "length": 295
+        }
+    },
+    {
+        "model": "tunaapi.song",
+        "pk": 3,
+        "fields": {
+            "title": "Every Breath You Take",
+            "artist": 2,
+            "album": "Synchronicity",
+            "length": 293
+        }
+    },
+    {
+        "model": "tunaapi.song",
+        "pk": 4,
+        "fields": {
+            "title": "Goodnight and Go",
+            "artist": 3,
+            "album": "Speak for Yourself",
+            "length": 214
+        }
+    },
+    {
+        "model": "tunaapi.song",
+        "pk": 5,
+        "fields": {
+            "title": "HUMBLE.",
+            "artist": 1,
+            "album": "DAMN.",
+            "length": 204
+        }
+    },
+    {
+        "model": "tunaapi.song",
+        "pk": 6,
+        "fields": {
+            "title": "Shape of My Heart",
+            "artist": 2,
+            "album": "Ten Summoner's Tales",
+            "length": 320
+        }
+    },
+    {
+        "model": "tunaapi.song",
+        "pk": 7,
+        "fields": {
+            "title": "The A Team",
+            "artist": 2,
+            "album": "The Last Ship",
+            "length": 279
+        }
+    },
+    {
+        "model": "tunaapi.song",
+        "pk": 8,
+        "fields": {
+            "title": "Hide and Seek",
+            "artist": 3,
+            "album": "Speak for Yourself",
+            "length": 290
+        }
+    },
+    {
+        "model": "tunaapi.song",
+        "pk": 9,
+        "fields": {
+            "title": "Fields of Gold",
+            "artist": 2,
+            "album": "Ten Summoner's Tales",
+            "length": 256
+        }
+    },
+    {
+        "model": "tunaapi.song",
+        "pk": 10,
+        "fields": {
+            "title": "DNA.",
+            "artist": 1,
+            "album": "DAMN.",
+            "length": 258
+        }
+    }
+]
